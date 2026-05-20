@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Outil collectif d'analyse de projet — Trajectoire bas carbone</title>
+<title>Outil collectif d'analyse de projet de mobilités — Trajectoire bas carbone</title>
 <style>
 :root {
   --if-blue: #0085CA;
@@ -486,14 +486,15 @@ footer {
 <div class="intro">
 <h2>Bienvenue</h2>
 <p>Cet outil collectif sert de guide à l'analyse des projets et sous projets, pour vérifier leur adéquation avec l'ambition de tenir une trajectoire bas carbone.</p>
-<p>Il peut être idéalement mobilisé sous la forme d'un temps délibératif avec les partenaires et parties prenantes du projet, et une fois complété, annexé le cas échéant à la fiche projet de l'Institut français.</p>
+<p>Il peut être idéalement mobilisé sous la forme d'un temps délibératif avec les partenaires et parties prenantes du projet, et une fois complété, annexé le cas échéant à la fiche projet de l'Institut français. La note obtenue vient valider l’optimisation du projet du point de vue de son ingénierie et de ses impacts.
+</p>
 <p>Deux dimensions sont analysées:</p>
 <ul>
-<li><strong>Confirmation du besoin</strong>, 7 questions sur la pertinence et la nécessité du projet.</li>
-<li><strong>Optimisation des impacts environnementaux</strong>, 8 questions sur l'ingénierie du projet.</li>
+<li><strong>Confirmation du besoin :</strong> questions sur la pertinence et la nécessité du projet.</li>
+<li><strong>Optimisation des impacts environnementaux :</strong> questions sur l'ingénierie du projet.</li>
 </ul>
-<p>Le seuil d'alerte est fixé à 10 réponses positives sur 15. Vos réponses ne sont pas stockées, l'évaluation se fait localement dans votre navigateur.</p>
-<p class="subtitle" style="margin-top:16px;font-size:14px"><strong>Note importante.</strong> Cet outil ne permet pas d'analyser les mobilités individuelles.</p>
+<p>Le seuil d'alerte est fixé à 10 réponses positives sur 15.</p>
+<p class="subtitle" style="margin-top:16px;font-size:14px"><strong>Note importante.</strong> Cet outil ne permet pas d'analyser les mobilités individuelles.Pour se faire, rendez-vous sur : <a href = https://juliettecabanac-wq.github.io/outil-individuel-mobilites_if/> </p>
 <div class="nav-buttons" style="justify-content: flex-end; border-top: none; padding-top: 0;">
 <button class="btn-primary" onclick="goTo(1)">Commencer l'analyse</button>
 </div>
@@ -508,7 +509,7 @@ footer {
 <div class="section-title">Le projet participe-t-il...</div>
 
 <div class="question" data-qid="q1">
-<span class="label">1. au soutien à la mise en œuvre à l'étranger des priorités culturelles de l'État (transformation numérique, professionnalisation des équipes, programmations innovantes, développement des réseaux) ?</span>
+<span class="label">1. Au soutien à la mise en œuvre à l'étranger des priorités culturelles de l'État (transformation numérique, professionnalisation des équipes, programmations innovantes, développement des réseaux) ?</span>
 <div class="options">
 <input type="radio" name="q1" id="q1-oui" value="oui" onchange="onAnswer()">
 <label for="q1-oui">Oui</label>
@@ -518,7 +519,7 @@ footer {
 </div>
 
 <div class="question" data-qid="q2">
-<span class="label">2. au soutien à la diffusion de la création artistique et au développement des industries culturelles et créatives à l'international ?</span>
+<span class="label">2. Au soutien à la diffusion de la création artistique et/ou au développement des industries culturelles et créatives à l'international ?</span>
 <div class="options">
 <input type="radio" name="q2" id="q2-oui" value="oui" onchange="onAnswer()">
 <label for="q2-oui">Oui</label>
@@ -528,7 +529,7 @@ footer {
 </div>
 
 <div class="question" data-qid="q3">
-<span class="label">3. au débat d'idées, à la coopération intellectuelle, à la francophonie, au renforcement des écosystèmes culturels du Sud ?</span>
+<span class="label">3. Au débat d'idées, à la coopération intellectuelle, à la francophonie, au renforcement des écosystèmes culturels du Sud ?</span>
 <div class="options">
 <input type="radio" name="q3" id="q3-oui" value="oui" onchange="onAnswer()">
 <label for="q3-oui">Oui</label>
@@ -538,7 +539,7 @@ footer {
 </div>
 
 <div class="question" data-qid="q4">
-<span class="label">4. aux priorités géographiques de l'Institut français (l'Afrique, l'Europe, l'Indopacifique) ?</span>
+<span class="label">4. Aux priorités géographiques de l'Institut français (l'Afrique, l'Europe, l'Indopacifique) ?</span>
 <div class="options">
 <input type="radio" name="q4" id="q4-oui" value="oui" onchange="onAnswer()">
 <label for="q4-oui">Oui</label>
@@ -574,8 +575,6 @@ footer {
 <label for="q7-oui">Oui</label>
 <input type="radio" name="q7" id="q7-non" value="non" onchange="onIndispensableNon()">
 <label for="q7-non">Non</label>
-</div>
-<p class="hint">Question pivot. Une réponse négative arrête l'analyse.</p>
 </div>
 
 <div class="error-msg" id="err1">Merci de répondre à toutes les questions avant de continuer.</div>
